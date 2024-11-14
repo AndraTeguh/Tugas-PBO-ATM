@@ -60,7 +60,6 @@ public class Account {
     public void withdraw(double amount) {
         if (hasSufficientBalance(amount)) {
             this.balance -= amount;
-            System.out.println("Penarikan Berhasil.");
         } else {
             System.out.println("Minimal Saldo tidak mencukupi untuk melakukan transaksi ini.");
         }
